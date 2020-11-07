@@ -4,13 +4,12 @@ Repositorio de la práctica 2 de IPM, curso 20/21.
 
 ## Miembros del grupo
 
-  * Nombre:
-  * Apellidos:
-  * Login UDC:
-  * Login Github:
+  * Nombre: Ivo
+  * Apellidos: Ceán Lale
+  * Login UDC: ivo.cean
+  * Login Github: ivocl
   
-  * Nombre:
-  * Apellidos:
-  * Login UDC:
-  * Login Github:
-
+  * Nombre: Francisco José
+  * Apellidos: Lata Bartual
+  * Login UDC: f.bartual
+  * Login Github: fbartual
