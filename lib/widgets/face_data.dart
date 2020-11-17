@@ -5,6 +5,7 @@ import 'package:ipm_p2/clients/imagga_client.dart';
 import 'package:ipm_p2/config/app_config.dart';
 import 'package:ipm_p2/locale/localization.i18n.dart';
 import 'package:basic_utils/basic_utils.dart';
+import 'package:ipm_p2/models/models.dart';
 import 'package:ipm_p2/widgets/alert_dialog_box.dart';
 
 class FaceData extends StatefulWidget {
