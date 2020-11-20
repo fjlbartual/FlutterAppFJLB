@@ -5,7 +5,7 @@
 import 'package:flutter/material.dart';
 import 'package:ipm_p2/clients/imagga_client.dart';
 import 'package:ipm_p2/config/app_config.dart';
-import 'package:ipm_p2/widgets/main_screen.dart';
+import 'package:ipm_p2/widgets/master_detail_builder.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 class IIPhotoFace extends StatelessWidget {
@@ -36,7 +36,7 @@ class IIPhotoFace extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: MainScreen(),
+        home: MasterDetailBuilder(),
       ),
     );
   }

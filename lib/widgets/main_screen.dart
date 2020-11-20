@@ -26,21 +26,20 @@ class MainScreen extends StatelessWidget {
   }
 
   Widget buildColumn() => Padding(
-        padding: EdgeInsets.all(16.0),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [
-            Text('Push the down button to take a photo, upload it and...'.i18n,
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
-                textAlign: TextAlign.center),
-            Text('Freak out with the advanced facial recognition!'.i18n,
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
-                textAlign: TextAlign.center),
-            CheckboxWidget(),
-            ButtonWidget(),
-          ],
-        ),
-      );
+    padding: EdgeInsets.all(16.0),
+    child: Column(
+      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      children: [
+        Text('Push the down button to take a photo, upload it and...'.i18n,
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
+            textAlign: TextAlign.center),
+        Text('Freak out with the advanced facial recognition!'.i18n,
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
+            textAlign: TextAlign.center),
+        CheckboxWidget(),
+        ButtonWidget(),
+      ],),
+  );
 }
 
 class LinkedLabelCheckbox extends StatelessWidget {
